@@ -69,6 +69,11 @@
         android:title="@string/trust_apps_manager_name" />
 
     <SwitchPreference
+        android:key="pref_allow_phone_overview_grid"
+        android:title="@string/pref_allow_phone_overview_grid"
+        android:summary="@string/pref_allow_phone_overview_grid_desc" />
+
+    <SwitchPreference
         android:defaultValue="true"
         android:key="pref_enable_minus_one"
         android:summary="@string/pref_show_google_now_summary"
